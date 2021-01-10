@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden!important;
+    font-family: "Ubuntu"!important;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    overflow: hidden!important;
+}
+a.navbar-brand.brand-name {
+    font-size: 2em;
+    font-weight: bolder;
+}
+    .shipping-list li{
+        list-style-type: none;
+        
+    }
+    .top-banner-bg{
+        background-repeat: no-repeat!important;
+        background-position: center center!important;
+        background-size: cover!important; 
+        position: relative;
+        width:100%;
+        min-height: 427px;
+    }
+    .bg_img-1{
+        background-image: url('../Images/cover-6.jpg');
+    }
+    .bg_img-2{   
+        background-image: url('../Images/cover-7.jpg');
+    }
+    .bg_img-3{   
+        background-image: url('../Images/cover-8.jpg');
+    }
+    .bg_img-4{   
+        background-image: url('../Images/cover-9.jpg');
+    }  
+    .btn-shopNow {
+        position: relative;
+        background: none;
+        padding: 0.8em 1.5em;
+        bottom: 12%;
+        left: 33.9999%;
+        background-color: brown;
+        border: 1px solid brown;
+        color: white;
+    }
+    .top-shopNOw-card {
+        position: absolute;
+        bottom: 16%;
+        width: 33%;
+        z-index: 1;
+        left: 34.5%;
+    }
+    .shop-catrgory{
+        background: none;
+        padding: 0.8em 2.5em;
+        bottom: 1.5em;
+        left: 9em;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    .shop-catrgory:hover{
+        background-color: white;
+        transition: 0.5s;
+        color: black;
+    }
+    .sale-info{
+        background-image: url(../Images/pattern-1.svg)!important;
+        background-color: #ff6f61!important;
+        padding: 4em 0em;
+        margin-top: 1em;
+    }
+    .shop-items-wrppr {
+        width: 80%;
+        margin: 0 auto;
+        padding: 7em 0em;
+    }
+    .shop-item_wrrpr:hover .shop-detail{
+        background-color: white;
+        transform: translateY(-77px);
+        transition: 0.5s;
+    }
+    #shop-item_wrrpr{
+        transition: 0.5s!important;
+    }
+    #none{
+        display: none;
+    }
+    .shop-item_wrrpr:hover #none{
+        display: block;
+        transition: 2s;
+        z-index: 1;
+    }
+    .bg-muted{
+        background-color: whitesmoke;
+    }
+    #btn-shopnow{
+        background: none;
+        padding: 0.8em 1.5em;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+    }
+    .px-8 {
+        padding-left: 10%!important;
+        padding-right: 4%!important;
+    }
+    .new-summer-collecton,.shop-by-brand_wrapper {
+        width: 80%;
+        margin: 0 auto;
+        padding: 4em 0em;
+
+    }
+    .shop-by-brand_container{
+        background-color: whitesmoke;
+    }
+    .h-2{
+        height: 6rem;
+    }
+    .arrivals-corousel {
+        width: 950px;
+        margin: auto;
+    }
+    #slick-slider {
+        padding-left: 16em;
+        padding-right: 13em;
+        overflow: hidden;
+    }
+    .arrow-left.slick-arrow {
+        position: relative;
+        bottom: 74%;
+        left: -6%;
+        overflow: hidden;
+        font-size: 2em;
+    }
+    .arrow-right.slick-arrow {
+        float: right;
+        position: relative;
+        bottom: 77%;
+        overflow: hidden;
+        right: -2%;
+        font-size: 2em;
+    }
+    .input-email{
+        border: none;
+        cursor: text;
+        width: 22%;
+        margin-top: 1em;
+    }
+    .input-email:focus{
+        outline: none;
+        
+    }
+    .items {
+        margin-right: 1%;
+    }
+    .hr-width {
+        width: 50%;
+        margin: auto;
+    }
+    hr.input-hr {
+        width: 30%;
+        margin: auto;
+        margin-top: 16px;
+    }
+    .insta-logo{
+        font-size: 4em;
+    }
+    .py-10{
+        padding: 20% 1%;
+    }
+    .text-orange{
+        color: rgb(255 123 10);
+    }
+    .bg-footer{
+        background-image: url(../Images/pattern-2.svg);
+        background-size: cover;
+        background-repeat: no-repeat
+        
+    }
+
+    @media screen and (min-width: 768px) and (max-width:990px){
+        .btn-shopNow {
+            position: relative;
+            background: none;
+            padding: 0.8em 1.5em;
+            bottom: 12%;
+            left: 27.9999%;
+            background-color: brown;
+            border: 1px solid brown;
+            color: white;
+
+        }
+        .top-shopNOw-card {
+            position: absolute;
+            bottom: 16%;
+            width: 45%;
+            z-index: 1;
+            left: 30.5%;
+        }
+        #slick-slider {
+            padding-left: 8em;
+            padding-right: 7em;
+            overflow: hidden;
+        }
+        .arrow-left.slick-arrow {
+            position: relative;
+            bottom: 74%;
+            left: -9%;
+            overflow: hidden;
+            font-size: 2em;
+        }
+        .arrow-right.slick-arrow {
+            float: right;
+            position: relative;
+            bottom: 82%;
+            overflow: hidden;
+            right: -8%;
+            font-size: 2em;
+        }
+        .input-hr {
+            width: 85%;
+            margin: auto;
+            margin-top: 16px;
+        }
+        .input-email {
+            border: none;
+            cursor: text;
+            width: 48%;
+            margin-top: 1em;
+        }
+    }
+    @media screen and (min-width: 567px) and (max-width:767px){
+        .btn-shopNow {
+            position: relative;
+            background: none;
+            padding: 0.8em 1.5em;
+            bottom: 8%;
+            left: 35.9999%;
+            background-color: brown;
+            border: 1px solid brown;
+            color: white;
+        }
+        .top-shopNOw-card {
+            position: absolute;
+            bottom: 29%;
+            width: 81%;
+            z-index: 1;
+            left: 12.5%;
+        }
+        .top-banner-bg{
+            background-repeat: no-repeat!important;
+            background-position: center center!important;
+            background-size: cover!important; 
+            position: relative;
+            width:100%;
+            min-height: 427px;
+        }
+        .bg_img-1{
+            background-image: url('../Images/cover-6.jpg');
+        }
+        .bg_img-2{   
+            background-image: url('../Images/cover-7.jpg');
+        }
+        .bg_img-3{   
+            background-image: url('../Images/cover-8.jpg');
+            display: none;
+        }
+        .bg_img-4{   
+            background-image: url('../Images/cover-9.jpg');
+            display: none;
+        }
+        .card .height {
+            height: 15em;
+            padding-top: 5em;
+        }
+        #slick-slider {
+            padding-left: 4.1em;
+            padding-right: 4em;
+            overflow: hidden;
+        }
+        .arrow-left.slick-arrow {
+            position: relative;
+            bottom: 74%;
+            left: -9%;
+            overflow: hidden;
+            font-size: 2em;
+        }
+        .arrow-right.slick-arrow {
+            float: right;
+            position: relative;
+            bottom: 82%;
+            overflow: hidden;
+            right: -8%;
+            font-size: 2em;
+        }
+        .input-hr {
+            width: 85%;
+            margin: auto;
+            margin-top: 16px;
+        }
+        .input-email {
+            border: none;
+            cursor: text;
+            width: 48%;
+            margin-top: 1em;
+        }
+    }
+    @media screen and (min-width: 300px) and (max-width:520px){
+        #slick-slider {
+            padding-left: 4.1em;
+            padding-right: 4em;
+            overflow: hidden;
+        }
+        .arrow-right.slick-arrow {
+            float: right;
+            position: relative;
+            bottom: 85%;
+            overflow: hidden;
+            right: -8%;
+            font-size: 1em;
+        }
+        .arrow-left.slick-arrow {
+            position: relative;
+            bottom: 81%;
+            left: -13%;
+            overflow: hidden;
+            font-size: 1em;
+        }
+        .input-hr {
+            width: 85%!important;
+            margin: auto;
+            margin-top: 16px;
+        }
+        .input-email {
+            border: none;
+            cursor: text;
+            width: 48%;
+            margin-top: 1em;
+        }
+        .top-nav-text{
+            font-size: 17px;
+        }
+        .btn-shopNow {
+            position: relative;
+            background: none;
+            padding: 0.8em 1.5em;
+            bottom: 8%;
+            left: 22.9999%;
+            background-color: brown;
+            border: 1px solid brown;
+            color: white;
+        }
+        .top-shopNOw-card {
+            position: absolute;
+            bottom: 8%;
+            width: 81%;
+            z-index: 1;
+            left: 12.5%;
+        }
+        .top-banner-bg{
+            background-repeat: no-repeat!important;
+            background-position: center center!important;
+            background-size: cover!important; 
+            position: relative;
+            width:100%;
+            min-height: 427px;
+        }
+        .bg_img-1{
+            background-image: url('../Images/cover-6.jpg');
+        }
+        .bg_img-2{   
+            background-image: url('../Images/cover-7.jpg');
+            display: none;
+        }
+        .bg_img-3{   
+            background-image: url('../Images/cover-8.jpg');
+            display: none;
+        }
+        .bg_img-4{   
+            background-image: url('../Images/cover-9.jpg');
+            display: none;
+        }
+        .card .height {
+            height: 15em;
+            padding-top: 3.5em;
+        }
+    }
+   
+
+
